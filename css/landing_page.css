@@ -6,6 +6,7 @@ body {
     margin: 0;
     font-family: Helvetica, sans-serif;
     overflow-x: hidden;
+    width: 100%;
 }
 
 .container1 {
@@ -38,7 +39,7 @@ body {
     padding-left: 3vw;
     font-size: 1.3vw; 
     line-height: 2vw;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .highlight {
@@ -52,7 +53,7 @@ body {
     color: white;
     padding: 1vw 1vw;
     margin-left: 3vw;
-    margin-bottom: 10.5vw;
+    margin-bottom: 5vw;
     border-radius: 5px;
     text-decoration: none;
     font-size: 1vw;
@@ -72,6 +73,8 @@ body {
     padding-bottom: 3vw;
     display: flex;
     position: relative; 
+    border: none;
+    outline: none;
 }
 
 .au {
@@ -156,6 +159,8 @@ body {
     padding-top: 2.5vw;
     padding-bottom: 1vw;
     width: 100%;
+    border: none;
+    outline: none;
 }
 
 .container2 h1 {
