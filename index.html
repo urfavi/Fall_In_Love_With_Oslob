@@ -1,30 +1,233 @@
-<!doctype html>
+<!DOCTYPE HTML>
 
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lets talk about Web Structure and Web Designing!">
+
+    <!-- Open Graph Tags for Social Sharing -->
+    <meta property="og:title" content="Fall In Love With Oslob">
+    <meta property="og:description" content="Explore, Savor, and Experience in Oslob.">
+    <meta property="og:image" content="https://example.com/image.jpg"&gt;>
+    <meta property="og:url" content="https://example.com"&gt;>
+
+    <!-- Favicon -->
+    <link rel="icon" href="pic/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css\header.css">
+    <link rel="stylesheet" href="css\footer.css">
     <link rel="stylesheet" href="css\landing_page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="js\jslanding.js"></script>
+    <title>Fall In Love With Oslob</title>
   </head>
 
   <body>
     <header>
+      <h1>
+        <img class="logo" src="pic/oslob_logo.png" alt="Oslob's Logo">
+        Municipality of Oslob
+      </h1>
       <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li> <!--Landing Page-->
-          <li><a href="about_us.html">About Us</a></li>
-          <li><a href="attractions.html">Attractions</a></li>
-          <li><a href="events_and_festivals.html">Events and Festivals</a></li>
-          <li><a href="food_and_culture.html">Food and Culture</a></li>
-          <li><a href="contact.html">Contact</a></li>
-            </ul>
+          <a href="index.html">Home</a><!--Landing Page-->
+          <a href="about_us.html">About</a>
+          <a href="attractions.html">Attractions</a>
+          <a href="events_and_festivals.html">Events and Festivals</a>
+          <a href="food_and_culture.html">Food and Culture</a>
+          <a href="contact.html">Contact</a>
+          <button id="searchButton"><i class="fas fa-search"></i></button>
       </nav>
     </header>
-    <h1>Home</h1>
+    <div id="searchOverlay" class="hidden">
+      <div class="search-content">
+          <button id="closeButton" class="close-btn">x</button>
+          <div class="search-container">
+              <input type="text" id="searchInput" placeholder="Search Here...">
+              <button id="searchButton2">Search</button>
+          </div>
+      </div>
+    </div>
 
-    <p>
-      Move some files around and try to update the navigation to still work!
-    </p>
-    <p>
-      <em>(hint: you'll need to update the CSS link href as well)</em>
-    </p>
+    <script src="js\jssearch.js"></script>
+
+    <div class="container1">
+      <h1>FALL IN LOVE<br>WITH <span class="highlight">OSLOB</span></h1>
+      <h2>Explore, Savor, and Experience.</h2>
+      <p>Experience adventure and culture: swim with whale sharks, <br> explore waterfalls, relax on beaches, and savor local flavors. <br>
+        Join our vibrant festivals and connect with community traditions.</p>
+      <a href="#container-2" class="button1">DIVE <strong>→</strong></a>
+    </div>
+    
+    <div class="container2" id="container-2">
+      <h1>IN OSLOB, WE CAN</h1>
+      <div class="container2-2">
+        <div id="container-2" class="card">
+          <h2>EXPLORE</h2>
+            <div class="image-container">
+              <img src="pic/explore.png" class="c2-img" alt="Down South Beaches">
+              <div class="overlay">
+                <h5>Discover Oslob's stunning beaches and waterfalls, and embrace adventure.</h5>
+                <a href="attractions.html" class="read-more-button">Read More</a>
+              </div>
+            </div>
+          <h3>DOWN SOUTH BEACHES</h3>
+        </div>
+        <div class="card">
+          <h2>SAVOR</h2>
+            <div class="image-container">
+              <img src="pic/savor.png" class="c2-img" alt="Oslob's Famous Seafoods">
+              <div class="overlay">
+                <h5>Savor Oslob's fresh seafood <br>and traditional dishes that <br>reflect its rich heritage.</h5>
+                <a href="food_and_culture.html" class="read-more-button">Read More</a>
+              </div>
+            </div>
+          <h3>OSLOB FAMOUS SEAFOODS</h3>
+        </div><div class="card">
+          <h2>EXPERIENCE</h2>
+            <div class="image-container">
+              <img src="pic/experience.png" class="c2-img" alt="Toslob Festival">
+              <div class="overlay">
+                <h5>Immerse yourself in Oslob’s vibrant festivals and unique traditions.</h5>
+                <a href="events_and_festivals.html" class="read-more-button">Read More</a>
+              </div>
+            </div>
+          <h3>TOSLOB FESTIVAL</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="aboutus">
+      <div class="au">
+        <div class="au1">
+          <h2>ABOUT OSLOB</h2>
+          <h1>DISCOVER THE BEAUTY AND CULTURE OF OSLOB</h1>
+          <p>Oslob is renowned for its breathtaking beaches, crystal-clear waters, and the famous whale shark watching. But there's so much more to discover! 
+            From historical landmarks and local delicacies to vibrant festivals and adventure activities, we aim to provide comprehensive insights for travelers and locals alike.<br><br>
+            Whether you’re planning your next vacation, looking for hidden gems, or simply wanting to learn more about this enchanting destination, Fall In Love With Oslob is here to help. 
+            We offer tips, guides, and stories that celebrate the spirit of Oslob.
+            Join us as we explore the wonders of Oslob, embrace its community, and support local businesses. Let’s embark on this journey together!
+          </p>
+          <a href="about_us.html" class="about-us-button">Discover More</a>
+        </div>
+      </div>
+      <div class="auu">
+        <div class="au2">
+          <img src="pic/lau.png" class="landing-about-img">
+        </div>
+      </div>
+    </div>
+
+    <div class="container3">
+      <div class="container3-1">
+        <h4>MUST KNOW TIPS</h4>
+        <div class="tip1">Essential Insights for an Unforgettable Experience</div>
+        <div class="tip2">Essential tips are vital for enhancing your experience in Oslob. They provide guidance on navigating the area,
+          connecting with the local culture, and discovering hidden gems that make your visit truly memorable. <br><br><br>
+          By following these insights, you can immerse yourself in the unique beauty and charm of Oslob, ensuring a rewarding and unforgettable stay. 
+          Embrace these tips to make the most of your adventure!</div>
+      </div>
+      <div class="container3-2">
+        <div class="con321">
+          <div class="licon"><img src="pic/li1.png"> <h6>Learn the Community</h6> <p>Discover Oslob’s rich history and culture.</p> </div>
+          <div class="licon"><img src="pic/li2.png"> <h6>Visit the Whale Sharks</h6> <p>Experience the thrill of swimming with whale sharks.</p> </div>
+          <div class="licon"><img src="pic/li3.png"> <h6>Savor Local Cuisine</h6> <p>Taste fresh seafood and traditional dishes at local eateries.</p> </div>
+        </div>
+        <div class="con322">
+          <div class="licon"><img src="pic/li4.png"> <br> <h6>Enjoy Local Celebrations</h6> <p>Explore ongoing festivals to enjoy local traditions.</p> </div>
+          <div class="licon"><img src="pic/li5.png"> <br> <h6>Embrace Every Experience</h6> <p>Live the moment and make lasting memories.</p> </div>
+          <div class="licon"><img src="pic/li6.png"> <br> <h6>Keep Local Contacts</h6> <p>Municipal Government of Oslob</p> </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container4">
+      <div class="c4-1">
+        <h1>WHAT <span class="highlight">TOURISTS</span> SAY!</h1>
+        <p>See how the tourists had a wonderful time in Oslob</p>
+      </div>
+      <div class="c4-2">
+        <div class="review-card">
+          <a href="https://www.tripadvisor.com.ph/ShowUserReviews-g3226128-d2572900-r923339748-Oslob_Whale_Sharks-Oslob_Cebu_Island_Visayas.html" class="review-link" target="_blank">
+            <div class="profile">
+              <img src="pic/tourist-icon.png" alt="Profile Picture">
+                <div>
+                  <h2>Darlvin Gay</h2>
+                  <div class="profile-info">Hongkong</div>
+                </div>
+            </div>
+            <h3>Review of "Garden Stay Beach Resort"</h3>
+            <p>We really enjoyed our stay at this place. The owner and staffs are so accommodating. The rooms are clean, as well as the entire area. The kids loved the place. It's like you're home away from home. Although the place is just small, but it's so cozy and clean with exceptional scenery.</p>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+          </a>
+        </div>
+
+        <div class="review-card">
+          <a href="https://www.tripadvisor.com.ph/ShowUserReviews-g3226128-d2572900-r923339748-Oslob_Whale_Sharks-Oslob_Cebu_Island_Visayas.html" class="review-link" target="_blank">
+            <div class="profile">
+              <img src="pic/tourist-icon.png" alt="Profile Picture">
+                <div>
+                  <h2>Angelo</h2>
+                  <div class="profile-info">Hongkong</div>
+                </div>
+            </div>
+            <h3>Review of “Whale Shark Swimming”</h3>
+            <p>An experience not to be missed. Get the feel of swimming side by side with a whale shark. Just don’t get too close. Prepare an underwater cam to document it though. Be careful too with the water current as you will be swept away for an inexperienced swimmer.</p>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+          </a>
+        </div>
+
+        <div class="review-card">
+          <a href="https://www.tripadvisor.com.ph/ShowUserReviews-g3226128-d2572900-r923339748-Oslob_Whale_Sharks-Oslob_Cebu_Island_Visayas.html" class="review-link" target="_blank">
+            <div class="profile">
+              <img src="pic/tourist-icon.png" alt="Profile Picture">
+                <div>
+                  <h2>Ruthandven</h2>
+                  <div class="profile-info">Wilton, California</div>
+                </div>
+            </div>
+            <h3>Review of “Cuartel Ruins”</h3>
+            <p>This is a terrific coral built edifice. Begun in the late 1800s to house Spanish Army soldiers but was halted in 1899 upon the arrival of the Americans. The coal stone construction utilized a bell tower's crumbled ruins. <br><br></p>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+          </a>
+        </div>
+
+        <div class="review-card">
+          <a href="https://www.tripadvisor.com.ph/ShowUserReviews-g3226128-d2572900-r923339748-Oslob_Whale_Sharks-Oslob_Cebu_Island_Visayas.html" class="review-link" target="_blank">
+            <div class="profile">
+              <img src="pic/tourist-icon.png" alt="Profile Picture">
+                <div>
+                  <h2>Johnro Joseph</h2>
+                  <div class="profile-info">Philipppines</div>
+                </div>
+            </div>
+            <h3>Review of “Toslob Festival”</h3>
+            <p>Street-dancing started at 3PM. Main event and performances started at past 6PM. Performances showcased the locals' festive spirit and amazing dancing skill.<br><br></p>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Experience Oslob, Cebu — where adventure meets beauty! Swim with gentle whale sharks, explore Tumalog Falls, and relax on Sumilon Island's pristine beaches. <br>
+        With its friendly locals and rich culture, Oslob is a must-visit gem in the Philippines. Your unforgettable adventure awaits!</p>
+      <div class="footer-links">
+          <a href="index.html">Home</a><!--Landing Page-->
+          <a href="about_us.html">About</a>
+          <a href="attractions.html">Attractions</a>
+          <a href="events_and_festivals.html">Events and Festivals</a>
+          <a href="food_and_culture.html">Food and Culture</a>
+          <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-icons">
+        <a href="https://web.facebook.com/municipalityofoslob" class="fi" target="_blank"><img src="pic/footer1.png"></a>
+        <a href="municipalityofoslob@gmail.com" class="fi" target="_blank"><img src="pic/footer2.png"></a>
+        <a href="https://www.instagram.com/municipalityofoslob/?igshid=YmMyMTA2M2Y%3D" class="fi" target="_blank"><img src="pic/footer3.png"></a>
+      </div>
+
+      <div class="p1">© Copyright. All rights reserved.</div>
+    </footer>
+   </div>
   </body>
 </html>
