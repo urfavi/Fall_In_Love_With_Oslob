@@ -1,23 +1,264 @@
 <!doctype html>
 
-<html>
+<html lang="en">
   <head>
+    <!-- Favicon -->
+    <link rel="icon" href="pic/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css\header.css">
+    <link rel="stylesheet" href="css\footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css\about.css">
+    <title>Fall In Love With Oslob</title>
   </head>
 
   <body>
     <header>
+      <h1>
+        <img class="logo" src="pic/oslob_logo.png" alt="Oslob's Logo">
+        Municipality of Oslob
+      </h1>
       <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li> <!--Landing Page-->
-          <li><a href="about_us.html">About Us</a></li>
-          <li><a href="attractions.html">Attractions</a></li>
-          <li><a href="events_and_festivals.html">Events and Festivals</a></li>
-          <li><a href="food_and_culture.html">Food and Culture</a></li>
-          <li><a href="contact.html">Contact</a></li>
-            </ul>
+          <a href="index.html">Home</a><!--Landing Page-->
+          <a href="about_us.html">About</a>
+          <a href="attractions.html">Attractions</a>
+          <a href="events_and_festivals.html">Events and Festivals</a>
+          <a href="food_and_culture.html">Food and Culture</a>
+          <a href="contact.html">Contact</a>
+          <button id="searchButton"><i class="fas fa-search"></i></button>
       </nav>
     </header>
-    <h1>About Us</h1>
+    <div id="searchOverlay" class="hidden">
+      <div class="search-content">
+          <button id="closeButton" class="close-btn">x</button>
+          <div class="search-container">
+              <input type="text" id="searchInput" placeholder="Search Here...">
+              <button id="searchButton2">Search</button>
+          </div>
+      </div>
+    </div>
+
+    <script src="js\jssearch.js"></script>
+
+    <div class="container">
+      <h1>ALL ABOUT OSLOB</h1>
+      <p>Municipality of Oslob</p>
+    </div>
+
+    <div class="container2">
+      <img src="pic/au1.png">
+      <div class="con2-2">
+        <h1>We <span class="highlight">Connect</span> You <br>to the World</h1>
+        <p>Oslob is a beautiful coastal town in Cebu, famed for its whale shark watching and stunning natural landscapes. Nestled along the southeastern coast, it offers 
+        breathtaking views of the ocean and lush surroundings. With its rich culture, warm hospitality, and delicious local cuisine, Oslob is a treasure trove of experiences.</p>
+        <p>Visitors can explore historical sites like The Cuartel, enjoy vibrant local festivals, and indulge in fresh seafood at local eateries. 
+          Oslob promises unforgettable adventures, making it a must-visit destination for every traveler.</p>
+      </div>
+    </div>
+
+    <div class="container3">
+      <img src="pic/au2.png" class="bg-image">
+      <div class="overlay1">Our Stories Have Adventures</div>
+    </div>
+    
+    <!--ABOUT OSLOB'S STORIES-->
+    <div class="container4">
+      <div class="areas">
+        <img src="pic/history.png" class="area" id="history" alt="Oslob's History">
+        <div class="overlay2">History</div>
+      </div>
+      <div class="areas">
+        <img src="pic/demo.png" class="area" id="demo" alt="Oslob's Demographics">
+        <div class="overlay3">Demographics</div>
+      </div>
+      <div class="areas">
+        <img src="pic/geo.png" class="area" id="geo" alt="Oslob's Geography">
+        <div class="overlay4">Geography</div>
+      </div>
+      <div class="areas">
+        <img src="pic/gov.png" class="area" id="gov" alt="Oslobs' Government">
+        <div class="overlay5">Government</div>
+      </div>
+    </div>
+
+    <!--ABOUT OSLOB'S HISTORY-->
+    <div class="container5" id="oslobhistory">
+      <h1>Walk Through History</h1>
+    </div>
+
+    <div class="container6">
+      <img src="pic/abh1.png">
+      <div class="con6-1">
+        <h1>Origins and Meaning</h1>
+        <p>Located in southeastern Cebu, Oslob was founded in 1848, with roots dating back to 1690 as a satellite community of Boljoon. 
+          Its name likely comes from the Visayan words for "to soak" or "to dip," reflecting a local tradition of soaking boiled bananas in salt.</p>
+      </div>
+    </div>
+
+    <div class="container7" alt="The Cuartel">
+      <div class="con7-1">
+        <h1>The Cuartel</h1>
+        <p>In the late 19th century, Oslob gained significance with the construction of The Cuartel, a coral stone barracks meant for Spanish soldiers. 
+          However, it was left unfinished due to the shift to American rule. 
+          This colonial legacy, combined with vibrant local traditions, highlights the rich cultural tapestry of Oslob today.</p>
+      </div>
+      <img src="pic/abh2.png">
+    </div>
+
+    <div class="container8">
+      <img src="pic/abh3.png" alt="Nuestra Señora de la Inmaculada Concepción Parish Church">
+      <div class="con8-1">
+        <h1>Nuestra Señora de la Inmaculada Concepción Parish Church</h1>
+        <p>Established in 1830, is a significant landmark that showcases the town's Spanish colonial heritage. 
+          Its architectural style and role as a community center reflect Oslob's rich cultural history.</p>
+      </div>
+    </div>
+
+    <script src="js/jsabout.js"></script>
+
+    <!--HTML FOR HISTORY DEMOGRAPHICS-->
+    <div class="container13" id="oslobdemo">
+      <div class="con13-1">
+        <h6>Vibrant Community of Oslob</h6>
+        <p>Oslob features a lively community with diverse barangays, each offering a unique atmosphere. The youthful demographic fosters a vibrant social scene, 
+          creating an enriching experience for both residents and visitors. </p>
+      </div>
+      <div class="con13-2">
+        <div class="con13-2-1">
+          <img src="pic/demoa.png">
+          <p>33,459 people</p>
+        </div>
+        <div class="con13-2-1">
+          <img src="pic/demob.png">
+          <p>21 Barangays</p>
+        </div>
+        <div class="con13-2-1">
+          <img src="pic/democ.png">
+          <p>Cebuano, Tagalog, English</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jsabout.js"></script>
+
+    <!--ABOUT OSLOB'S LOCATION-->
+    <div class="container9" id="oslobgeo">
+      <div class="con9-title">
+        <h2>Where is Oslob?</h2>
+        <div class="con9-2">
+          <p>The Municipality of Oslob is bordered to the north by Boljoon, to the west by Ginatilan and Samboan, to the east by the Cebu Strait, and to the south by Santander. <br><br>
+            Oslob is conveniently located approximately 116 kilometers (72 miles) south of Cebu City. The drive typically takes about 3 to 4 hours by car, depending on traffic conditions. 
+            Public transportation is also readily available, with buses running regularly from Cebu City to Oslob; this bus journey usually takes around 4 to 5 hours and departs from the South Bus Terminal. <br><br>
+            The nearest airport is Mactan-Cebu International Airport, located about 120 kilometers (75 miles) away. From the airport, travelers can take a taxi or shuttle to the bus terminal 
+            and then catch a bus to Oslob. Additionally, Oslob’s proximity to other popular tourist destinations, such as Moalboal (around 30 minutes away) and Dumaguete (approximately an hour by ferry), makes it an ideal base for exploring the region.
+          </p>
+        </div>
+      </div>
+      <div class="con9">
+        <div class="con9-1">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125915.79253099363!2d123.32993560995038!3d9.520151289426423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33ab9fc3ba1584b3%3A0xcb54005bbcc85855!2sOslob%2C%20Cebu!5e0!3m2!1sen!2sph!4v1733571574676!5m2!1sen!2sph" 
+           allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jsabout.js"></script>
+
+    <!--ABOUT OSLOB'S GOVERNMENT-->
+    <div class="container10" id="oslobgov">
+      <h1>Faces of Oslob’s Governance</h1>
+      <p>Oslob functions with a mayor-council government structure. The municipal leadership is led by the Mayor, serving as the chief executive, while the Vice Mayor 
+        oversees the Sangguniang Bayan <br>(Municipal Council). This council consists of elected councilors responsible for enacting local laws and regulations.</p>
+    </div>
+
+    <div class="container11">
+      <div class="con11-1">
+        <img src="pic/mayor.png" alt="Oslob's Mayor">
+        <div class="con11-1-1">
+          <h1>Jose C. Tumulak Jr.</h1>
+          <h2>Mayor of the Municipality of Oslob</h2>
+          <p>Jose C. Tumulak Jr. is the Mayor of Oslob. He focuses on community development and sustainable tourism, promoting the town's whale shark watching 
+            and beautiful beaches. He aims to improve public services and the quality of life for residents.</p>
+        </div>
+      </div>
+      <div class="con11-2">
+        <img src="pic/vmayor.png" alt="Oslob's Vice Mayor">
+        <div class="con11-2-2">
+          <h1>Roger O. Trapa</h1>
+          <h2>VMayor of the Municipality of Oslob</h2>
+          <p>Roger O. Trapa serves as the Vice Mayor of Oslob. He assists the Mayor in local governance and leads the Sangguniang Bayan (Municipal Council). 
+            Trapa is responsible for supporting the enactment of local laws and regulations, focusing on community needs and development.</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jsabout.js"></script>
+
+    <div class="container12">
+      <h1>Municipal Councilors</h1>
+      <div class="con12-2">
+        <div class="con12-2-1">
+          <img src="pic/gc1.png" alt="Oslob's Councilors">
+          <p>Franz Carl L. Barrera</p>
+        </div>
+        <div class="con12-2-1" alt="Oslob's Councilors">
+          <img src="pic/gc2.png">
+          <p>Ronamarie Therese Guaren</p>
+        </div>
+        <div class="con12-2-1">
+          <img src="pic/gc3.png" alt="Oslob's Councilors">
+          <p>Carlos L. Mirasol</p>
+        </div>
+        <div class="con12-2-1">
+          <img src="pic/gc4.png" alt="Oslob's Councilors">
+          <p>Gwendolyn S. Gallano</p>
+        </div>
+      </div>
+      <div class="con12-2">
+        <div class="con12-2-1">
+          <img src="pic/gc5.png" alt="Oslob's Councilors">
+          <p>Friedel Ricardo G. Nazareno</p>
+        </div>
+        <div class="con12-2-1">
+          <img src="pic/gc6.png" alt="Oslob's Councilors">
+          <p>Jose Dodjie O. Abines</p>
+        </div>
+        <div class="con12-2-1">
+          <img src="pic/gc7.png" alt="Oslob's Councilors">
+          <p>Sarah P. Dalumpines</p>
+        </div>
+        <div class="con12-2-1">
+          <img src="pic/gc8.png" alt="Oslob's Councilors">
+          <p>Veronica F. Rendon</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container14">
+      <h1>Government Efficiency</h1>
+      <a class="image-link" href="https://cmci.dti.gov.ph/lgu-profile.php?lgu=Oslob" target="_blank">
+        <img src="pic/govbar.png" alt="Oslob's Government Efficiency">
+      </a>
+    </div>
+
+    <footer>
+      <p>Experience Oslob, Cebu — where adventure meets beauty! Swim with gentle whale sharks, explore Tumalog Falls, and relax on Sumilon Island's pristine beaches. <br>
+        With its friendly locals and rich culture, Oslob is a must-visit gem in the Philippines. Your unforgettable adventure awaits!</p>
+      <div class="footer-links">
+          <a href="index.html">Home</a><!--Landing Page-->
+          <a href="about_us.html">About</a>
+          <a href="attractions.html">Attractions</a>
+          <a href="events_and_festivals.html">Events and Festivals</a>
+          <a href="food_and_culture.html">Food and Culture</a>
+          <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-icons">
+        <a href="https://web.facebook.com/municipalityofoslob" class="fi" target="_blank"><img src="pic/footer1.png"></a>
+        <a href="municipalityofoslob@gmail.com" class="fi" target="_blank"><img src="pic/footer2.png"></a>
+        <a href="https://www.instagram.com/municipalityofoslob/?igshid=YmMyMTA2M2Y%3D" class="fi" target="_blank"><img src="pic/footer3.png"></a>
+      </div>
+
+      <div class="p1">© Copyright. All rights reserved.</div>
+    </footer>
   </body>
 </html>
