@@ -1,1 +1,180 @@
-//CODE HERE
+//CODE HERE HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taste & Tradition</title>
+    <link rel="stylesheet" href="food.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header fade-in-target">
+            <h1>Taste & Tradition</h1>
+            <p>Discover Oslob's rich culinary heritage with fresh seafood and traditional dishes that celebrate local culture and history</p>
+        </div>
+    
+        <div class="savor fade-in-target">
+            <h2>Savor</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <a href="https://www.yelp.com/biz/the-big-js-oslob" target="_blank">
+                        <img src="tapasilog.png" alt="Tapa Silog">
+                    </a>
+                    <p><strong>The Big J’s</strong> <em>“Tapa Silog”</em></p>
+                    <div class="description">A savory dish with marinated beef and fried rice.</div>
+                </div>
+                <div class="menu-item">
+                    <a href="https://www.tripadvisor.com.ph/Restaurant_Review-g3226128-d9820723-Reviews-La_Terrasse-Oslob_Cebu_Island_Visayas.html" target="_blank">
+                        <img src="shrimp.png" alt="Famous Shrimp">
+                    </a>
+                    <p><strong>La Terrasse’s</strong> <em>“Famous Shrimp”</em></p>
+                    <div class="description">Succulent shrimp grilled to perfection.</div>
+                </div>
+                <div class="menu-item">
+                    <a href="https://www.tripadvisor.com.ph/Restaurant_Review-g3226128-d13901177-Reviews-AC_Palayok_Restaurant-Oslob_Cebu_Island_Visayas.html" target="_blank">
+                        <img src="calamares.png" alt="Calamares">
+                    </a>
+                    <p><strong>AC Palayok’s</strong> <em>“Calamares”</em></p>
+                    <div class="description">Tender rings, perfectly battered and fried to a golden crisp.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="zest fade-in-target">
+            <h2>Zest</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <a href="https://restaurantguru.com/Papatiyos-Seafood-House-Oslob" target="_blank">
+                        <img src="crab.png" alt="Crab">
+                    </a>
+                    <p><strong>Papatiyo’s Seafood House's</strong> <em>“Spicy Crab”</em></p>
+                    <div class="description">Fresh crab cooked in a rich, spicy chili sauce that adds heat and depth.</div>
+                </div>
+                <div class="menu-item">
+                    <a href="https://www.facebook.com/zamoraslechon/" target="_blank">
+                        <img src="lechon.png" alt="Lechon">
+                    </a>
+                    <p><strong>Zamora's Famous and Mouthwatering</strong> <em>“Lechon”</em></p>
+                    <div class="description">A flavorful roasted pig with crispy skin, seasoned with spices and chili.</div>
+                </div>
+                <div class="menu-item">
+                    <a href="https://www.tripadvisor.com.ph/Restaurant_Review-g3226128-d17473781-Reviews-George_Restaurant_Oslob-Oslob_Cebu_Island_Visayas.html" target="_blank">
+                        <img src="sinigang.png" alt="Sinigang">
+                    </a>
+                    <p><strong>George Restaurant's</strong> <em>“Sinigang na Baboy”</em></p>
+                    <div class="description">A tangy pork soup infused with chili peppers, creating a comforting dish with a spicy twist.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="indulge fade-in-target">
+            <h2>Indulge</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <a href="https://www.tripadvisor.com.ph/Restaurant_Review-g3226128-d15114178-Reviews-Caferoniq-Oslob_Cebu_Island_Visayas.html" target="_blank">
+                        <img src="halo-halo.png" alt="Halo-Halo">
+                    </a>
+                    <p><strong>Caferoniq's Must Try Famous</strong> <em>“Halo-Halo”</em></p>
+                    <div class="description">A refreshing dessert of crushed ice, sweet fruits, and topped with leche flan and ube.</div>
+                </div>
+                <div class="menu-item">
+                    <a href="https://www.tripadvisor.com.ph/Restaurant_Review-g3226128-d15037728-Reviews-Le_Bistrot-Oslob_Cebu_Island_Visayas.html" target="_blank">
+                        <img src="banana split.png" alt="Banana Split">
+                    </a>
+                    <p><strong>Le Bistrot's Sweet and Tasty</strong> <em>“Banana Split"</em></p>
+                    <div class="description">A split banana topped with ice cream, chocolate, caramel, whipped cream, and cherries.</div>
+                </div>
+                <div class="menu-item">
+                    <a href="https://www.tripadvisor.com.ph/Restaurant_Review-g3226128-d13498723-Reviews-VLK_Pizzeria_Creperie_Restaurant-Oslob_Cebu_Island_Visayas.html" target="_blank">
+                        <img src="crepe.png" alt="Crepe">
+                    </a>
+                    <p><strong>VLK Pizzeria & Creperie's</strong> <em>“Crepe”</em></p>
+                    <div class="description">Thin crepe filled with ice cream and drizzled with chocolate or fruit sauce.</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="photo-container">
+            <img src="the cuartel.png" alt="Cuartel">
+            <div class="text-overlay">
+                <h1>UNVEILING WONDERS</h1>
+                <h2>CULTURAL TREASURES</h2>
+                <p>Oslob, Cebu</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider fade-in-target">
+        <h2 class="slider-title">Cuartel ruins (Museo Oslob)</h2>
+        <div class="slider-wrapper">
+            <div class="image-list">
+                <img src="cuartel 1.png" alt="c1" class="image-link">
+                <img src="cuartel 2.png" alt="c2" class="image-link">
+                <img src="cuartel 3.png" alt="c3" class="image-link">
+                <img src="cuartel 4.png" alt="c4" class="image-link">
+                <img src="cuartel 5.png" alt="c5" class="image-link">
+                <img src="cuartel 6.png" alt="c6" class="image-link">
+                <img src="cuartel 7.png" alt="c7" class="image-link">
+            </div>
+        </div>
+        <p class="slider-description">
+            The Cuartel ruins, located in Oslob, are remnants of a historical military barracks built during the Spanish colonial period. This site offers a glimpse into the architectural style of the time, characterized by its robust stone structure and intricate details.
+
+            Visitors can explore the vast grounds, where the remains of the barracks stand as a testament to the region's rich history. The site is not only significant for its historical value but also provides stunning views of the surrounding landscapes, making it a popular spot for tourists and history enthusiasts alike.
+
+            The Cuartel ruins are a must-visit for anyone looking to understand the cultural heritage of the Philippines and enjoy the scenic beauty of Oslob.
+        </p>
+    </div>
+
+    <div class="slider fade-in-target">
+        <h2 class="slider-title">Our Lady of Immaculate Conception Church</h2>
+        <div class="slider-wrapper">
+            <div class="image-list">
+                <img src="church 1.png" alt="ch1" class="image-link">
+                <img src="church 2.png" alt="ch2" class="image-link">
+                <img src="church 3.png" alt="ch3" class="image-link">
+                <img src="church 4.png" alt="ch4" class="image-link">
+                <img src="church 5.png" alt="ch5" class="image-link">
+                <img src="church 6.png" alt="ch6" class="image-link">
+                <img src="church 7.png" alt="ch7" class="image-link">
+            </div>
+        </div>
+        <p class="slider-description">
+            Nestled in a serene setting, the church is dedicated to the Immaculate Conception of the Virgin Mary, celebrating her purity and grace. The architecture typically features intricate designs, soaring ceilings, and beautiful stained glass windows that depict biblical scenes and saints.
+
+            The interior is often adorned with religious artwork, statues, and altars that reflect the church's spiritual significance. The ambiance is peaceful, inviting worshippers and visitors to reflect and pray.
+
+            The church serves as a center for community gatherings, religious services, and special events, fostering a strong sense of faith and fellowship among its congregation. Its historical importance and architectural beauty make it a cherished landmark in the area.
+        </p>
+    </div>
+
+    <div class="slider fade-in-target">
+        <h2 class="slider-title">Music and Arts</h2>
+        <div class="slider-wrapper">
+            <div class="image-list">
+                <img src="anm 1.png" alt="a1" class="image-link">
+                <img src="anm 2.png" alt="a2" class="image-link">
+                <img src="anm 3.png" alt="a3" class="image-link">
+                <img src="anm 4.png" alt="a4" class="image-link">
+                <img src="anm 5.png" alt="a5" class="image-link">
+                <img src="anm 6.png" alt="a6" class="image-link">
+                <img src="anm 7.png" alt="a7" class="image-link">
+            </div>
+        </div>
+        <p class="slider-description">
+            Oslob is a vibrant municipality where music and arts thrive, reflecting the rich cultural heritage of the region. Traditional Cebuano folk music is commonly performed during local festivals, echoing the community's history and values.
+
+            Artisan crafts play a significant role in Oslob's artistic landscape. Skilled artisans create beautiful woven textiles and intricate shell crafts, capturing the essence of local culture and traditions. These handmade items are often featured in local markets, promoting the unique artistry of the community.
+
+            Public murals and community art projects also highlight Oslob's commitment to preserving its cultural identity. Local artists use their talents to create vibrant artworks that tell stories of the town’s history and natural beauty.
+        </p>
+    </div>
+</div>
+<script src="food.js"></script> 
+</body>
+</html>
+
+
