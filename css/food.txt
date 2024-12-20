@@ -1,1 +1,509 @@
-//CODE HERE
+//CODE HERE HTML FOOD
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taste & Tradition</title>
+    <link rel="stylesheet" href="food.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header fade-in-target">
+            <h1>Taste & Tradition</h1>
+            <p>Discover Oslob's rich culinary heritage with fresh seafood and traditional dishes that celebrate local culture and history</p>
+        </div>
+    
+        <div class="savor fade-in-target">
+            <h2>Savor</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <a href="https://www.yelp.com/biz/the-big-js-oslob" target="_blank">
+                        <img src="tapasilog.png" alt="Tapa Silog">
+                    </a>
+                    <p><strong>The Big J’s</strong> <em>“Tapa Silog”</em></p>
+                    <div class="description">A savory dish with marinated beef and fried rice.</div>
+                </div>
+                <div class="menu-item">
+                    <a href="https://www.tripadvisor.com.ph/Restaurant_Review-g3226128-d9820723-Reviews-La_Terrasse-Oslob_Cebu_Island_Visayas.html" target="_blank">
+                        <img src="shrimp.png" alt="Famous Shrimp">
+                    </a>
+                    <p><strong>La Terrasse’s</strong> <em>“Famous Shrimp”</em></p>
+                    <div class="description">Succulent shrimp grilled to perfection.</div>
+                </div>
+                <div class="menu-item">
+                    <a href="https://www.tripadvisor.com.ph/Restaurant_Review-g3226128-d13901177-Reviews-AC_Palayok_Restaurant-Oslob_Cebu_Island_Visayas.html" target="_blank">
+                        <img src="calamares.png" alt="Calamares">
+                    </a>
+                    <p><strong>AC Palayok’s</strong> <em>“Calamares”</em></p>
+                    <div class="description">Tender rings, perfectly battered and fried to a golden crisp.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="zest fade-in-target">
+            <h2>Zest</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <a href="https://restaurantguru.com/Papatiyos-Seafood-House-Oslob" target="_blank">
+                        <img src="crab.png" alt="Crab">
+                    </a>
+                    <p><strong>Papatiyo’s Seafood House's</strong> <em>“Spicy Crab”</em></p>
+                    <div class="description">Fresh crab cooked in a rich, spicy chili sauce that adds heat and depth.</div>
+                </div>
+                <div class="menu-item">
+                    <a href="https://www.facebook.com/zamoraslechon/" target="_blank">
+                        <img src="lechon.png" alt="Lechon">
+                    </a>
+                    <p><strong>Zamora's Famous and Mouthwatering</strong> <em>“Lechon”</em></p>
+                    <div class="description">A flavorful roasted pig with crispy skin, seasoned with spices and chili.</div>
+                </div>
+                <div class="menu-item">
+                    <a href="https://www.tripadvisor.com.ph/Restaurant_Review-g3226128-d17473781-Reviews-George_Restaurant_Oslob-Oslob_Cebu_Island_Visayas.html" target="_blank">
+                        <img src="sinigang.png" alt="Sinigang">
+                    </a>
+                    <p><strong>George Restaurant's</strong> <em>“Sinigang na Baboy”</em></p>
+                    <div class="description">A tangy pork soup infused with chili peppers, creating a comforting dish with a spicy twist.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="indulge fade-in-target">
+            <h2>Indulge</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <a href="https://www.tripadvisor.com.ph/Restaurant_Review-g3226128-d15114178-Reviews-Caferoniq-Oslob_Cebu_Island_Visayas.html" target="_blank">
+                        <img src="halo-halo.png" alt="Halo-Halo">
+                    </a>
+                    <p><strong>Caferoniq's Must Try Famous</strong> <em>“Halo-Halo”</em></p>
+                    <div class="description">A refreshing dessert of crushed ice, sweet fruits, and topped with leche flan and ube.</div>
+                </div>
+                <div class="menu-item">
+                    <a href="https://www.tripadvisor.com.ph/Restaurant_Review-g3226128-d15037728-Reviews-Le_Bistrot-Oslob_Cebu_Island_Visayas.html" target="_blank">
+                        <img src="banana split.png" alt="Banana Split">
+                    </a>
+                    <p><strong>Le Bistrot's Sweet and Tasty</strong> <em>“Banana Split"</em></p>
+                    <div class="description">A split banana topped with ice cream, chocolate, caramel, whipped cream, and cherries.</div>
+                </div>
+                <div class="menu-item">
+                    <a href="https://www.tripadvisor.com.ph/Restaurant_Review-g3226128-d13498723-Reviews-VLK_Pizzeria_Creperie_Restaurant-Oslob_Cebu_Island_Visayas.html" target="_blank">
+                        <img src="crepe.png" alt="Crepe">
+                    </a>
+                    <p><strong>VLK Pizzeria & Creperie's</strong> <em>“Crepe”</em></p>
+                    <div class="description">Thin crepe filled with ice cream and drizzled with chocolate or fruit sauce.</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="photo-container">
+            <img src="the cuartel.png" alt="Cuartel">
+            <div class="text-overlay">
+                <h1>UNVEILING WONDERS</h1>
+                <h2>CULTURAL TREASURES</h2>
+                <p>Oslob, Cebu</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider fade-in-target">
+        <h2 class="slider-title">Cuartel ruins (Museo Oslob)</h2>
+        <div class="slider-wrapper">
+            <div class="image-list">
+                <img src="cuartel 1.png" alt="c1" class="image-link">
+                <img src="cuartel 2.png" alt="c2" class="image-link">
+                <img src="cuartel 3.png" alt="c3" class="image-link">
+                <img src="cuartel 4.png" alt="c4" class="image-link">
+                <img src="cuartel 5.png" alt="c5" class="image-link">
+                <img src="cuartel 6.png" alt="c6" class="image-link">
+                <img src="cuartel 7.png" alt="c7" class="image-link">
+            </div>
+        </div>
+        <p class="slider-description">
+            The Cuartel ruins, located in Oslob, are remnants of a historical military barracks built during the Spanish colonial period. This site offers a glimpse into the architectural style of the time, characterized by its robust stone structure and intricate details.
+
+            Visitors can explore the vast grounds, where the remains of the barracks stand as a testament to the region's rich history. The site is not only significant for its historical value but also provides stunning views of the surrounding landscapes, making it a popular spot for tourists and history enthusiasts alike.
+
+            The Cuartel ruins are a must-visit for anyone looking to understand the cultural heritage of the Philippines and enjoy the scenic beauty of Oslob.
+        </p>
+    </div>
+
+    <div class="slider fade-in-target">
+        <h2 class="slider-title">Our Lady of Immaculate Conception Church</h2>
+        <div class="slider-wrapper">
+            <div class="image-list">
+                <img src="church 1.png" alt="ch1" class="image-link">
+                <img src="church 2.png" alt="ch2" class="image-link">
+                <img src="church 3.png" alt="ch3" class="image-link">
+                <img src="church 4.png" alt="ch4" class="image-link">
+                <img src="church 5.png" alt="ch5" class="image-link">
+                <img src="church 6.png" alt="ch6" class="image-link">
+                <img src="church 7.png" alt="ch7" class="image-link">
+            </div>
+        </div>
+        <p class="slider-description">
+            Nestled in a serene setting, the church is dedicated to the Immaculate Conception of the Virgin Mary, celebrating her purity and grace. The architecture typically features intricate designs, soaring ceilings, and beautiful stained glass windows that depict biblical scenes and saints.
+
+            The interior is often adorned with religious artwork, statues, and altars that reflect the church's spiritual significance. The ambiance is peaceful, inviting worshippers and visitors to reflect and pray.
+
+            The church serves as a center for community gatherings, religious services, and special events, fostering a strong sense of faith and fellowship among its congregation. Its historical importance and architectural beauty make it a cherished landmark in the area.
+        </p>
+    </div>
+
+    <div class="slider fade-in-target">
+        <h2 class="slider-title">Music and Arts</h2>
+        <div class="slider-wrapper">
+            <div class="image-list">
+                <img src="anm 1.png" alt="a1" class="image-link">
+                <img src="anm 2.png" alt="a2" class="image-link">
+                <img src="anm 3.png" alt="a3" class="image-link">
+                <img src="anm 4.png" alt="a4" class="image-link">
+                <img src="anm 5.png" alt="a5" class="image-link">
+                <img src="anm 6.png" alt="a6" class="image-link">
+                <img src="anm 7.png" alt="a7" class="image-link">
+            </div>
+        </div>
+        <p class="slider-description">
+            Oslob is a vibrant municipality where music and arts thrive, reflecting the rich cultural heritage of the region. Traditional Cebuano folk music is commonly performed during local festivals, echoing the community's history and values.
+
+            Artisan crafts play a significant role in Oslob's artistic landscape. Skilled artisans create beautiful woven textiles and intricate shell crafts, capturing the essence of local culture and traditions. These handmade items are often featured in local markets, promoting the unique artistry of the community.
+
+            Public murals and community art projects also highlight Oslob's commitment to preserving its cultural identity. Local artists use their talents to create vibrant artworks that tell stories of the town’s history and natural beauty.
+        </p>
+    </div>
+</div>
+<script src="food.js"></script> 
+</body>
+</html>
+
+//CODE HERE CSS FOOD
+
+:root {
+    font-size: 1rem; /* 16px */
+}
+  
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+  
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem; /* 16px */
+}
+  
+.header {
+    margin-bottom: 2rem; /* 32px */
+    background-color: #ffffff;
+    text-align: center;
+}
+  
+.header h1 {
+    margin: 0;
+    font-size: 3.5rem; /* 56px */
+    color: #0d3050;
+}
+  
+.header p {
+    margin: 0.625rem 0 0; /* 10px */
+    color: #0d3050;
+    font-size: 1.5rem; /* 24px */
+}
+
+.savor {
+    margin-top: 2rem; /* 32px */
+    text-align: center;
+}
+  
+.savor h2 {
+    font-size: 2rem; /* 32px */
+    color: #0d3050;
+    margin-bottom: 1rem; /* 16px */
+}
+
+.zest {
+    margin-top: 1rem; /* 16px */
+    text-align: center;
+}
+  
+.zest h2 {
+    font-size: 2rem; /* 32px */
+    color: #0d3050;
+    margin-bottom: 1rem; /* 16px */
+}
+
+.indulge {
+    margin-top: 1rem; /* 16px */
+    text-align: center;
+}
+  
+.indulge h2 {
+    font-size: 2rem; /* 32px */
+    color: #0d3050;
+    margin-bottom: 1rem; /* 16px */
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 7rem; /* 112px */
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    width: 20rem; /* 320px */
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 12.5rem; /* 200px */
+    object-fit: cover;
+    border-radius: 0.5rem; /* 8px */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* 0 8px 16px */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item a:hover img {
+    box-shadow: 0 0.5rem 1rem rgba(0, 60, 86, 0.6);
+    transform: scale(1.1);
+}
+
+.description {
+    margin-top: 0.5rem; /* 8px */
+}
+
+.menu-item p {
+    font-size: 1.25rem; /* 20px */
+    font-weight: bold;
+    margin-top: 0.5rem; /* 8px */
+    color: #2c3e50;
+    text-align: center;
+}
+
+.menu-item a {
+    display: block;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 12.5rem; /* 200px */
+    object-fit: cover;
+    border-radius: 0.5rem; /* 8px */
+    box-shadow: 0 0.5rem 1rem rgba(44, 62, 80, 1); /* 0 8px 16px */
+    transition: box-shadow 0.3s ease;
+}
+
+.menu-item a:hover img {
+    box-shadow: 0 0.5rem 1rem rgba(0, 60, 86, 0.6);
+    transform: scale(1.1);
+}
+
+.description {
+    margin-top: 0.5rem; /* 8px */
+}
+
+.menu-item p {
+    font-size: 1.25rem; /* 20px */
+    font-weight: bold;
+    margin-top: 0.5rem; /* 8px */
+    color: #2c3e50;
+}
+  
+.menu-item strong {
+    color: #0d3050;
+}
+  
+.menu-item em {
+    font-style: italic;
+    color: #0d3050;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.photo-container {
+    margin: 7rem 0; /* 112px */
+    padding: 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.photo-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 5px 5px rgba(2, 39, 67, 0.7), 0 -5px 5px rgba(2, 39, 67, 0);
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+.text-overlay h1 {
+    font-size: 3rem; /* 48px */
+    margin: 0.25rem; /* 4px */
+}
+
+.text-overlay h2 {
+    font-size: 7rem; /* 112px */
+    margin: 0.25rem; /* 4px */
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.text-overlay p {
+    font-size: 2rem; /* 32px */
+    margin: 0;
+}
+
+.slider {
+    max-width: 62.5rem; /* 1000px */
+    margin: 1rem auto; /* 16px */
+    width: 95%;
+}
+
+.slider-title {
+    text-align: center;
+    font-size: 2.8125rem; /* 45px */
+    margin-bottom: 0.625rem; /* 10px */
+    color: #022743;
+    font-weight: bold;
+}
+
+.slider-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.slide-button {
+    position: absolute;
+    top: 50%;
+    height: 3.125rem; /* 50px */
+    width: 3.125rem; /* 50px */
+    color: #fff;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.7);
+    font-size: 2.2rem; /* 35px */
+    cursor: pointer;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    transition: 0.3s ease;
+}
+
+.slide-button:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#prev-slide {
+    left: 0.625rem; /* 10px */
+}
+
+#next-slide {
+    right: 0.625rem; /* 10px */
+}
+
+.image-list {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 0.625rem; /* 10px */
+    padding: 0.625rem 0; /* 10px */
+}
+
+.image-link {
+    object-fit: cover;
+    border-radius: 0.5rem; /* 8px */
+}
+
+.description-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.625rem; /* 10px */
+    width: 100%;
+}
+
+.slider-description {
+    font-size: 1rem; /* 16px */
+    color: #555;
+    width: 100%;
+    line-height: 1.5;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(1.25rem); 
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0); 
+}
+
+//CODE HERE JS FOOD
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Select elements with the 'fade-in-target' class
+    const fadeInElements = document.querySelectorAll(".fade-in-target");
+
+    // Function to check if an element is in the viewport
+    const isElementInViewport = (el) => {
+        const rect = el.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    };
+
+    // Function to add the 'visible' class when the element is in the viewport
+    const fadeInOnScroll = () => {
+        fadeInElements.forEach((el) => {
+            if (isElementInViewport(el)) {
+                el.classList.add("visible");
+            }
+        });
+    };
+
+    // Initial setup: add the 'fade-in' class to all target elements
+    fadeInElements.forEach((el) => {
+        el.classList.add("fade-in");
+    });
+
+    // Add event listener for scrolling
+    window.addEventListener("scroll", fadeInOnScroll);
+
+    // Check visibility on page load
+    fadeInOnScroll();
+});
+
